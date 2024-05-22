@@ -1,20 +1,19 @@
 <template>
-    <header>
-    <div class="wrapper">
-        <RouterLink>
-            <img src="" id="logo">
-        </RouterLink>
+  <header>
+    <div>
+      <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/logo"><img src="" id="logo" />Logo</RouterLink>
+        <RouterLink to="/pedidos">Pedidos</RouterLink>
+      </nav>
     </div>
-    </header>
+  </header>
 </template>
 
 <script>
-export default{
-name:"Navbar"
-}
+export default {
+  name: "Navbar",
+};
 </script>
 <style scoped>
-
 </style>
